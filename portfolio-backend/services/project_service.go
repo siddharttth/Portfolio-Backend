@@ -49,7 +49,7 @@ func GetProjects(c *gin.Context) {
 
 		{
 			Name:      "Go Quiz App",
-			Period:    "2024",
+			Period:    "Jan 2024",
 			TechStack: "Go, JSON, HTTP, REST, Postman",
 			Points: []string{
 				"Built a Go-based quiz application for creating and taking quizzes",
@@ -61,7 +61,7 @@ func GetProjects(c *gin.Context) {
 
 		{
 			Name:      "Go Weather App",
-			Period:    "2024",
+			Period:    "Feb 2024",
 			TechStack: "Go, OpenWeather API, HTTP, JSON, Docker",
 			Points: []string{
 				"Developed a weather application using Go and OpenWeather API",
@@ -73,7 +73,7 @@ func GetProjects(c *gin.Context) {
 
 		{
 			Name:      "Go Simple HTTP Server",
-			Period:    "2024",
+			Period:    "Mar 2024",
 			TechStack: "Go, HTTP, HTML/CSS, JSON, AWS EC2",
 			Points: []string{
 				"Implemented a basic HTTP server using Go to serve static files",
