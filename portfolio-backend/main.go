@@ -26,6 +26,7 @@ func main() {
 	r.GET("/api/experience", services.GetExperience)
 	r.GET("/api/projects", services.GetProjects)
 	r.GET("/api/skills", services.GetSkills)
+	r.GET("/api/games", services.GetGames)
 
 	// Get port from environment variable or use default
 	port := os.Getenv("PORT")
