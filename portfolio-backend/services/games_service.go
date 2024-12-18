@@ -17,7 +17,7 @@ func GetGames(c *gin.Context) {
 				"Match pairs of identical cards",
 				"Complete the game with minimum moves",
 			},
-			URL: "/games/memory-match", 
+			URL: "/games/memory-match", // Add this for routing
 		},
 		{
 			ID:          "snake",
@@ -28,7 +28,7 @@ func GetGames(c *gin.Context) {
 				"Eat food to grow longer",
 				"Avoid hitting walls and yourself",
 			},
-			URL: "/games/snake-game",
+			URL: "/games/snake-game", // Add this for routing
 		},
 		{
 			ID:          "puzzle",
@@ -39,7 +39,7 @@ func GetGames(c *gin.Context) {
 				"Arrange numbers in order",
 				"Complete with minimum moves",
 			},
-			URL: "/games/sliding-puzzle", 
+			URL: "/games/sliding-puzzle", // Add this for routing
 		},
 	}
 	c.JSON(200, games)
